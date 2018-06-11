@@ -171,7 +171,7 @@ body {
 	height: 30px;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
-	/*background-color: #a7a7a7;*/
+	background-color: #a7a7a7;
 	position: absolute;
 	border: 10px solid hsl(0, 0%, 98%);
 	border-top: none;
