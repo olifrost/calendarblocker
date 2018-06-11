@@ -125,8 +125,7 @@
 
 #wc {
 display: block;
-font-weight: 500;
-
+font-weight: 400;
 }
 
 /* Larger than mobile */
@@ -192,15 +191,14 @@ body {
 	padding: 1rem;
 	color: white;
 	text-align: center;
-
-	padding-bottom: 4rem;
+	padding-bottom: 0;
 
 
 }
 
 #lockup {
 	position: relative;
-	top: 1rem;
+	top: -3rem;
 }
 
 #logo {
@@ -281,7 +279,7 @@ ul.share-buttons li{
 /*STYLES*/
 
 
-.date, .match {
+.date {
 	font-weight: bolder;
 }
 
