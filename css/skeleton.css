@@ -101,7 +101,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Chivo', 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #222; }
 
 
@@ -136,9 +136,9 @@ p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 a {
-color: #ff4d44; }
+color: #1DBF48; }
 a:hover {
-color: #dc0a00; }
+color: #0A4018; }
 
 
 
@@ -221,10 +221,12 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  color: #FFF;
+  color: black;
+  font-size: 1em;
 /*  background-color: #33C3F0;*/
 	background-color: none;
-	border-color:  #fff;}
+	border-color:  black;
+}
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -235,9 +237,9 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  color: #FFF;
+  color: #0A4018;
   background-color: none;
-  border-color: #fff; }
+  border-color: #0A4018; }
 
 /*ADD TO CALENDAR*/
 

@@ -1,4 +1,13 @@
 
+
+.calendar-row {
+	margin-top: 3rem;
+	margin-bottom: 3.5rem;
+	border-width: 0;
+	border-top: 1px solid #E1E1E1;
+
+}
+
 /* Animations */
 
 .animated {
@@ -7,44 +16,12 @@
   -webkit-animation-fill-mode: both;
   animation-fill-mode: none;
 	z-index: 1;
+
 }
 
 .animated.infinite {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-}
-
-@-webkit-keyframes flipInX {
-  from {
-    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
-    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-    opacity: 0;
-  }
-
-  40% {
-    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
-    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
-    -webkit-animation-timing-function: ease-in;
-    animation-timing-function: ease-in;
-  }
-
-  60% {
-    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
-    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
-    opacity: 1;
-  }
-
-  80% {
-    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
-    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
-  }
-
-  to {
-    -webkit-transform: perspective(400px);
-    transform: perspective(400px);
-  }
 }
 
 @keyframes flipInX {
@@ -67,7 +44,7 @@
   60% {
     -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
     transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
-    opacity: 1;
+
   }
 
   80% {
@@ -78,6 +55,7 @@
   to {
     -webkit-transform: perspective(400px);
     transform: perspective(400px);
+    opacity: 1;
   }
 }
 
@@ -167,6 +145,7 @@ body {
 
 
 #hole1, #hole2 {
+  display: none;
 	width: 25px;
 	height: 30px;
 	border-bottom-left-radius: 20px;
@@ -187,12 +166,17 @@ body {
 }
 
 #header {
-	background-color: #ff4d44;
+	/*background-color: #ff4d44;*/
+  background-color: #1DBF48;
 	padding: 1rem;
-	color: white;
+	color: black;
 	text-align: center;
 	padding-bottom: 0;
 
+  h2 {
+    font-weight: 600;
+
+  }
 
 }
 
@@ -205,6 +189,10 @@ body {
 	width: 35%;
 	margin-bottom: 1rem;
 	margin-top: 1rem;
+}
+
+svg path {
+  fill: black !important;
 }
 
 @media (min-width: 550px) {#logo {width: 20%;}}
@@ -222,7 +210,7 @@ body {
 /*SHARE BUTTONS*/
 
 a {
-	color: :#ff4d44;
+	color: :#0A4018;
 }
 
 ul.share-buttons{
@@ -234,7 +222,7 @@ ul.share-buttons{
 }
 
 .share-buttons a {
-	color: #ff4d44;
+	color: #0A4018;
 }
 .share-buttons a:hover{
 	color: #ff4d44;
@@ -261,7 +249,7 @@ ul.share-buttons li{
 }
 
 #sharing a {color: #ffffff;}
-#sharing a:hover {color: #c30800;}
+  #sharing a:hover {color: #c30800;}
 
 .share {
 	color: black;
@@ -290,7 +278,9 @@ sup {
 
 .addtocalendar {
 	margin-top: 2em;
-	font-family: 'Raleway' !important;
+	font-family: 'Chivo' !important;
+  color: #0A4018 !important;
+  border-color: #0A4018 !important;
 }
 
 .container {
@@ -301,12 +291,6 @@ sup {
 	line-height: 0.5em;
 }
 
-.calendar-row {
-	margin-top: 3rem;
-	margin-bottom: 3.5rem;
-	border-width: 0;
-	border-top: 1px solid #E1E1E1;
-}
 
 #first {
 	border: none;
@@ -315,6 +299,7 @@ sup {
 /*EVENTS*/
 
 .event {
+
 	border-radius: 10px;
 	background-color: gray;
 	border-left: 4px solid #000000;
@@ -324,6 +309,10 @@ sup {
 	height: 200;
 	width: 100%;
 	display: inline-block;
+
+  background-color: #1DBF48 !important;
+	border-left: 4px solid #0A4018 !important;
+	color: #0A4018 !important;
 }
 
 .event-green
