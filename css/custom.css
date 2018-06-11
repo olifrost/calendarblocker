@@ -63,6 +63,7 @@
     animation-timing-function: ease-in;
   }
 
+
   60% {
     -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
     transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
@@ -124,7 +125,8 @@
 
 #wc {
 display: block;
-font-weight: 400;
+font-weight: 500;
+
 }
 
 /* Larger than mobile */
@@ -168,9 +170,9 @@ body {
 #hole1, #hole2 {
 	width: 25px;
 	height: 30px;
-	border-bottom-left-radius: 25px;
-	border-bottom-right-radius: 25px;
-	background-color: #a7a7a7;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	/*background-color: #a7a7a7;*/
 	position: absolute;
 	border: 10px solid hsl(0, 0%, 98%);
 	border-top: none;
@@ -190,13 +192,15 @@ body {
 	padding: 1rem;
 	color: white;
 	text-align: center;
-	padding-bottom: 0;
+
+	padding-bottom: 4rem;
+
 
 }
 
 #lockup {
 	position: relative;
-	top: -3rem;
+	top: 1rem;
 }
 
 #logo {
@@ -277,7 +281,7 @@ ul.share-buttons li{
 /*STYLES*/
 
 
-.date {
+.date, .match {
 	font-weight: bolder;
 }
 
