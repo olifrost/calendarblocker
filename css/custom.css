@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Tungsten';
+    src: url('Tungsten-Medium.eot');
+    src: url('Tungsten-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Tungsten-Medium.woff2') format('woff2'),
+        url('Tungsten-Medium.woff') format('woff'),
+        url('Tungsten-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
 
 
 .calendar-row {
@@ -100,10 +112,17 @@
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+#title {
+  font-weight: 400;
+	font-family: 'Tungsten';
+	letter-spacing:0.2em;
+	font-size:4em;
+	margin-top: 0.25em;
 
+}
 #wc {
 display: block;
-font-weight: 600;
+
 }
 
 /* Larger than mobile */
@@ -171,10 +190,13 @@ body {
 	padding: 1rem;
 	color: black;
 	text-align: center;
+
 	padding-bottom: 0;
 
-  h2 {
+  h1 {
     font-weight: 600;
+
+
 
   }
 
@@ -189,6 +211,7 @@ body {
 	width: 35%;
 	margin-bottom: 1rem;
 	margin-top: 1rem;
+	display: none;
 }
 
 svg path {
@@ -242,7 +265,12 @@ ul.share-buttons li{
 	color: gray;
 	margin-bottom: 1em;
 	margin-top: 0rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 3em;
 }
+
 
 #sharers {
 	margin-bottom: 1rem;
@@ -278,10 +306,12 @@ sup {
 
 .addtocalendar {
 	margin-top: 2em;
-	font-family: 'Chivo' !important;
+	font-family: 'Tungsten' !important;
+
   color: #0A4018 !important;
-  border-color: #0A4018 !important;
+
 }
+
 
 .container {
 	margin-top: 2em;

@@ -136,7 +136,7 @@ p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 a {
-color: #1DBF48; }
+color: black; }
 a:hover {
 color: #0A4018; }
 
@@ -171,12 +171,15 @@ h4, .event {
 }
 
 .addtocalendar:hover {
-  color: #ff4d44 !important;
-  border-color: #ff4d44 !important;
+  color: #0A4018 !important;
+  border-color: #0A4018 !important;
 
   transition-property: all;
   transition-duration: 0.5s;
   fill: #ff4d44 !important:
+}
+.addtocalendar svg path {
+  fill: #0A4018;
 }
 
 .atcb-link,
@@ -184,16 +187,17 @@ h4, .event {
 button,
 input[type="submit"],
 input[type="reset"],
-input[type="button"] {
+input[type="button"], .addtocalendar  {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
   color: #555;
+  font-family: 'Tungsten' !important;
   text-align: center;
-  font-size: 11px;
-  font-weight: 600;
+  font-size: 14px !important;
+  font-weight: 400 !important;
   line-height: 38px;
-  letter-spacing: .1rem;
+  letter-spacing: .3rem !important;
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
@@ -222,7 +226,7 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: black;
-  font-size: 1em;
+
 /*  background-color: #33C3F0;*/
 	background-color: none;
 	border-color:  black;
@@ -246,6 +250,7 @@ input[type="button"].button-primary:focus {
 /* Base */
 
 .addtocalendar var{
+
     display: none;
 }
 
