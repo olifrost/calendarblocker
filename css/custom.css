@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Tungsten';
-    src: url('/fonts/Tungsten-Medium.eot');
-    src: url('/fonts/Tungsten-Medium.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/Tungsten-Medium.woff2') format('woff2'),
-        url('/fonts/Tungsten-Medium.woff') format('woff'),
-        url('/fonts/Tungsten-Medium.ttf') format('truetype');
+    src: url('../fonts/Tungsten-Medium.eot');
+    src: url('../fonts/Tungsten-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Tungsten-Medium.woff2') format('woff2'),
+        url('../fonts/Tungsten-Medium.woff') format('woff'),
+        url('../fonts/Tungsten-Medium.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
