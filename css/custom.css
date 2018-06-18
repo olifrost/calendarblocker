@@ -120,6 +120,11 @@
 	margin-top: 0.25em;
 
 }
+
+.event h5, .match {
+  font-weight: 200 !important;
+}
+
 #wc {
 display: block;
 
