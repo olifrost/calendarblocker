@@ -194,7 +194,7 @@ input[type="button"], .addtocalendar  {
   color: #555;
   font-family: 'Tungsten' !important;
   text-align: center;
-  font-size: 15px !important;
+  font-size: 14px !important;
   font-weight: 400 !important;
   line-height: 38px;
   letter-spacing: .3rem !important;
@@ -226,7 +226,7 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: black;
-
+font-size: 20px !important;
 /*  background-color: #33C3F0;*/
 	background-color: none;
 	border-color:  black;
