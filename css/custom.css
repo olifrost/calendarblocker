@@ -123,6 +123,7 @@
 
 #wc {
 display: block;
+white-space: nowrap;
 
 }
 
